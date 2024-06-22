@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 a {
+    margin-left: 550px; /* Adjust as needed */
+    color: rgb(4, 91, 4);
+    
+}
+h2 a:hover
+{
+    color: red;
+}
+
+table td:hover{
+    color: red;
+}
+
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+/* Ensure all cells have the same size */
+td {
+    height: 35px;
+    width: 110px;
+}
+
+/* Example of consolidated table styles */
+.table {
+    margin-left: 500px;
+}
+
+
+
+.table-1, .table-2 {
+    background-color: rgb(40, 130, 128);
+}
+
+.table-1 .n2, .table-2 .n5 {
+    background-color: rgb(175, 53, 53);
+    color: white;
+}
+
+.table-1 .n3, .table-2 .n6 {
+    background-color: rgb(0, 255, 251);
+    color: white;
+}
+
+.table-3, .table-4 {
+    background-color: blue;
+    color: white;
+}
+
+.table-3 .n8, .table-4 .n11 {
+    background-color: rgb(31, 93, 31);
+}
+
+.table-3 .n9, .table-4 .n12 {
+    background-color: rgb(71, 20, 20);
+}
+
+.table-5, .table-6 {
+    background-color: rgb(249, 183, 1);
+    color: white;
+}
+
+.table-5 .n14, .table-6 .n17 {
+    background-color: blue;
+}
+
+.table-5 .n15, .table-6 .n18 {
+    background-color: rgb(229, 121, 224);
+}
+
+.n1, .n4 {
+    height: 35px;
+    width: 110px;
+}
+.align
+{
+    text-align: center;
+    margin-left: 450px;    
+    margin-top: 80px;
+}
+.align td:hover
+{
+    color: red;
+}
+.align td
+{
+    cursor: pointer;
+}
+.table tr
+{
+    border: 2px solid white;
+    border-collapse: collapse;
+    
+}
+.table .n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11,.n12,.n13,.n14,.n15,.n16,.n17,.n18
+{
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+
